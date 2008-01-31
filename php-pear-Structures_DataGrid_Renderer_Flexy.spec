@@ -7,7 +7,7 @@ Summary:	%{_pearname} - renderer driver using Flexy
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera wykorzystujący Flexy
 Name:		php-pear-%{_pearname}
 Version:	0.1.3
-Release:	1
+Release:	2
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
