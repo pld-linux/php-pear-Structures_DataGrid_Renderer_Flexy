@@ -32,10 +32,10 @@ formatter.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Ten pakiet dostarcza sterownik renderara dla Structures_DataGrid
+Ten pakiet dostarcza sterownik renderera dla Structures_DataGrid
 korzystający z HTML_Template_Flexy. Dodaje kilka dodatkowych zmiennych
 do instancji Flexy oraz możliwość podziału na strony. Renderer pozwala
-takze na kofnigurowanie wyników, etykiet oraz formatowaina kolumn.
+także na konfigurowanie wyników, etykiet oraz formatowania kolumn.
 
 Ta klasa ma w PEAR status: %{_status}.
 
