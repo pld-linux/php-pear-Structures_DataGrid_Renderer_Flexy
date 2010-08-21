@@ -1,19 +1,17 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Structures
-%define		_subclass	DataGrid_Renderer_Flexy
 %define		_status		alpha
 %define		_pearname	Structures_DataGrid_Renderer_Flexy
 Summary:	%{_pearname} - renderer driver using Flexy
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera wykorzystujący Flexy
 Name:		php-pear-%{_pearname}
 Version:	0.1.3
-Release:	3
+Release:	4
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	dabe6e44be276e6a9091dea03bc8aec5
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_Flexy/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.9
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-Structures_DataGrid >= 0.7.1
