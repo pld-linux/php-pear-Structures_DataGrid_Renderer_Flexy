@@ -4,12 +4,12 @@
 Summary:	%{_pearname} - renderer driver using Flexy
 Summary(pl.UTF-8):	%{_pearname} - sterownik renderera wykorzystujący Flexy
 Name:		php-pear-%{_pearname}
-Version:	0.1.3
-Release:	4
+Version:	0.1.4
+Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	dabe6e44be276e6a9091dea03bc8aec5
+# Source0-md5:	5c87723a076da350ac701e3ba69ab856
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_Flexy/
 BuildRequires:	php-pear-PEAR >= 1:1.4.9
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -50,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc install.log docs/Structures_DataGrid_Renderer_Flexy/examples/
+%doc install.log
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/Structures/DataGrid/Renderer/Flexy.php
