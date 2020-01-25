@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	Structures_DataGrid_Renderer_Flexy
 Summary:	%{_pearname} - renderer driver using Flexy
